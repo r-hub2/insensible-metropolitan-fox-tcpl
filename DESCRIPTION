@@ -37,7 +37,7 @@ Encoding: UTF-8
 Config/testthat/edition: 3
 BugReports: https://github.com/USEPA/CompTox-ToxCast-tcpl/issues
 NeedsCompilation: no
-Packaged: 2024-10-09 12:24:11 UTC; jbrown20
+Packaged: 2024-10-09 12:40:28 UTC; jbrown20
 Author: Richard S Judson [ctb, ths] (<https://orcid.org/0000-0002-2348-9633>),
   Dayne L Filer [aut],
   Jason Brown [cre] (<https://orcid.org/0009-0000-2294-641X>),

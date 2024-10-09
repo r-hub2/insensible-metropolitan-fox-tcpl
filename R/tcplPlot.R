@@ -51,6 +51,7 @@
 #' @importFrom gridExtra marrangeGrob
 #' @importFrom ggplot2 ggsave
 #' @importFrom dplyr %>% all_of pull
+#' @importFrom grDevices pdf.options
 #' @export
 #'
 #' @examples
@@ -63,7 +64,7 @@ tcplPlot <- function(dat = NULL, type = "mc", fld = "m4id", val = NULL, compare.
   
   #set pdf options
   enc <- pdf.options()$encoding
-  pdf.options(encoding='ISOLatin2.enc')
+  pdf.options(encoding="CP1253.enc")
   on.exit(pdf.options(encoding = enc))
   
   # Validate vars based on some assumed properties
